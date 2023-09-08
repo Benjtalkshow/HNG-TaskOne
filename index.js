@@ -14,6 +14,8 @@ const date = new Date();
 const daysOfTheWeek = createCurrentDate[date.getDay()];
 currentDate.innerHTML = `Day: ${daysOfTheWeek}`;
 
+setInterval(() => {
+  const currentTimer = Date.now();
+  currentTime.innerHTML = `Time: ${currentTimer}`;
+},1000)
 
-const currentTimer = Date.now();
-currentTime.innerHTML = `Time: ${currentTimer}`;
