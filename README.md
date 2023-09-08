@@ -1,5 +1,7 @@
 # HNG10-TaskOne
 
+<p align="center"><img src="/image/project.png"/></p>
+
 # Profile Page for Nnaji Benjamin (Benjtalkshow)
 
 The Profile Page for Nnaji Benjamin, known as Benjtalkshow, is a visually appealing and informative web page designed to showcase the personal and professional details of the individual. This web project combines HTML, CSS, and JavaScript to create an engaging user experience.
