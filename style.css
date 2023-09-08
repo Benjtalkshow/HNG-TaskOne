@@ -80,14 +80,16 @@ background: linear-gradient(180deg,#2b5de3,#539ef5);
     border-left: 2px solid #fff;
     height: 50px;
 }
-.profile-wrapper .btn {
+.profile-wrapper .link {
     outline-style: none;
+    text-decoration: none;
+    text-align: center;
     margin-top: 20px;
     border: 0;
     border-radius: 8px;
     color: #fff;
     font-size: 1.2rem;
-    padding: 17px;
+    padding: 13px;
     width: 100%;
     cursor: pointer;
     background: linear-gradient(90deg,#2b5de3,#539ef5);
