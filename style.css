@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+width: 100%;
+height: 100vh;
+padding: 20px;
+display: flex;
+align-items:center;
+justify-content: center;
+background-color: rgb(91, 91, 230);
+}
+
+.profile-wrapper {
+width: 400px;
+padding: 10px;
+border-radius: 10px;
+position: relative;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+background-color: whitesmoke;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.profile-wrapper .clipped-div {
+width: 100%;
+height: 300px;
+margin-bottom: 40px;
+clip-path: circle(67% at 50% 8%);
+background: linear-gradient(180deg,#2b5de3,#539ef5);
+}
+.clipped-div .username {
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    padding: 20% 0px 0px 0px;
+}
+
+.profile-wrapper img {
+    width: 50%;
+    border: .5rem solid whitesmoke;
+    border-radius: 50%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: center;
+    -o-object-position: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transform: translateX(-50%);
+}
+.profile-wrapper .track {
+    margin-top: 40px;
+    color: #000;
+    font-size: 1.5rem;
+}
+.profile-wrapper .date {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+    background: linear-gradient(90deg,#2b5de3,#539ef5);
+}
+.date p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.date .divider {
+    border-left: 2px solid #fff;
+    height: 50px;
+}
+.profile-wrapper .btn {
+    outline-style: none;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    padding: 17px;
+    width: 100%;
+    cursor: pointer;
+    background: linear-gradient(90deg,#2b5de3,#539ef5);
+    transition: .3s ease-in-out;
+}
+.profile-wrapper .btn:hover {
+    background: linear-gradient(90deg,#539ef5,#2b5de3);
+}
+@media screen and (max-width: 339px) {
+    .profile-wrapper .clipped-div {
+        margin-bottom: 0px;
+    }
+    .profile-wrapper .track {
+        margin-top: 0px;
+    }
+}
