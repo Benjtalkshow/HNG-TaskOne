@@ -64,27 +64,28 @@ background: linear-gradient(180deg,#2b5de3,#539ef5);
 }
 .profile-wrapper .date {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 20px;
     border: 0;
-    border-radius: 8px;
     width: 100%;
-    background: linear-gradient(90deg,#2b5de3,#539ef5);
 }
 .date p {
     color: #fff;
+    padding: 13px;
     font-size: 1.2rem;
+    border-radius: 8px;
+    text-align: center;
+    background: linear-gradient(90deg,#2b5de3,#539ef5);
+    width: 100%;
 }
-.date .divider {
-    border-left: 2px solid #fff;
-    height: 50px;
-}
+
 .profile-wrapper .link {
     outline-style: none;
     text-decoration: none;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     border: 0;
     border-radius: 8px;
     color: #fff;
@@ -95,7 +96,7 @@ background: linear-gradient(180deg,#2b5de3,#539ef5);
     background: linear-gradient(90deg,#2b5de3,#539ef5);
     transition: .3s ease-in-out;
 }
-.profile-wrapper .btn:hover {
+.profile-wrapper .link:hover {
     background: linear-gradient(90deg,#539ef5,#2b5de3);
 }
 @media screen and (max-width: 339px) {
