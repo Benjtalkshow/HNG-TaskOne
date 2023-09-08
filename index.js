@@ -34,5 +34,5 @@ displayTime();
 
 btn.addEventListener('click', (e) => {
   e.preventDefault();
-  window.open('#', '_blank');
+  window.open('https://github.com/Benjtalkshow/HNG-TaskOne', '_blank');
 });
