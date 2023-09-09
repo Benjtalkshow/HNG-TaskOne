@@ -1,6 +1,6 @@
 # HNG10-TaskOne
 
-<p align="center"><img src="/image/project.png"/></p>
+<p align="center"><img src="/image/readme_md_image.png"/></p>
 
 # Profile Page for Nnaji Benjamin (Benjtalkshow)
 

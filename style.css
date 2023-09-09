@@ -96,7 +96,8 @@ background: linear-gradient(180deg,#2b5de3,#539ef5);
     background: linear-gradient(90deg,#2b5de3,#539ef5);
     transition: .3s ease-in-out;
 }
-.profile-wrapper .link:hover {
+.profile-wrapper .link:hover,
+.profile-wrapper .date p:hover {
     background: linear-gradient(90deg,#539ef5,#2b5de3);
 }
 @media screen and (max-width: 339px) {
